@@ -38,9 +38,9 @@ instance_groups:
 
 releases:
   - name:    bpm
-    version: "1.1.0"
+    version: "1.1.19"
     url:     (( concat "https://bosh.io/d/github.com/cloudfoundry/bpm-release?v=" releases.bpm.version ))
-    sha1:    82e83a5e8ebd6e07f6ca0765e94eb69e03324a19
+    sha1:    669baca975c6def518c7e736dbf189cfb438475b
 
   - name:    nats
     version: "27"
